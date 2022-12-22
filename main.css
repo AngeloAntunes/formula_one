@@ -1,0 +1,378 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body>header {
+  background-color: #e10600;
+  padding: 25px 0;
+}
+
+header .container,
+#about .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header .container img,
+footer img {
+  height: 40px;
+}
+
+header li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+header li a:hover {
+  text-decoration: underline 3px;
+}
+
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+#about {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+#about .container div {
+  margin: 80px 40px;
+}
+
+.bahrain {
+  height: 450px;
+  border-radius: 0 20px 20px 0;
+  box-shadow: 20px 25px #f9080040;
+}
+
+.conteudo_sobre {
+  border-left: #e10600 solid;
+  padding: 0 20px;
+}
+
+#about h1 {
+  margin-bottom: 30px;
+  color: #e10600;
+  font-family: 'Trirong';
+  font-weight: bold;
+}
+
+#about p {
+  margin: 15px 0;
+}
+
+#news {
+  padding-top: 40px;
+}
+
+#news h2,
+#classification h2,
+#partnership h2 {
+  margin-bottom: 40px;
+  padding-left: 10px;
+  border-left: 5px solid #e10600;
+  color: #e10600;
+  font-family: 'Trirong';
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.articles article img,
+video {
+  width: 100%;
+}
+
+.articles article {
+  width: 30%;
+  margin: 20px 10px;
+  cursor: pointer;
+}
+
+.articles article h3 {
+  margin: 10px 0;
+  padding: 5px 0;
+  text-align: center;
+  color: #e10600;
+}
+
+.articles article a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #e10600;
+  padding: 8px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.articles article a:hover {
+  background-color: #fff;
+  border: solid 1px #e10600;
+  color: #e10600;
+}
+
+.articles article {
+  border-bottom-right-radius: 15px;
+  border-right: solid 1px;
+  border-bottom: solid 1px;
+  border-color: #d0d0d2;
+  padding: 12px;
+}
+
+.articles article:hover {
+  border-color: #e10600;
+}
+
+#classification {
+  padding: 40px 0;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+#classification .container b {
+  text-transform: uppercase;
+  font-family: 'Trirong';
+  font-weight: 900;
+  color: #15151e;
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+#classification .container li:hover b {
+  color: #fff;
+}
+
+
+#classification .container p {
+  color: #67676d;
+}
+
+
+#classification .container li {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 15px;
+  list-style-type: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#classification .container .spots {
+  background-color: #ededed;
+  color: #15151e;
+  font-weight: normal;
+  border-radius: 20px;
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+#classification .container .spots .teste {
+  color: #15151e;
+  margin: 5px;
+}
+
+#classification .container li:hover {
+  background-color: #38383f;
+  color: #fff;
+}
+
+#classification .container .color_one {
+  margin-right: 10px;
+  padding: 0 10px;
+  border-right: solid 5px #3671C6;
+}
+
+#classification .container .color_two {
+  margin-right: 10px;
+  padding: 0 10px;
+  border-right: solid 5px #F91536;
+}
+
+#classification .container .color_three {
+  margin-right: 10px;
+  padding: 0 10px;
+  border-right: solid 5px #3671C6;
+}
+
+#classification .container .color_for {
+  margin-right: 10px;
+  padding: 0 10px;
+  border-right: solid 5px #6CD3BF;
+}
+
+#classification .container .color_five {
+  margin-right: 10px;
+  padding: 0 10px;
+  border-right: solid 5px #F91536;
+}
+
+#classification .container .color_six {
+  margin-right: 10px;
+  padding: 0 10px;
+  border-right: solid 5px #6CD3BF;
+}
+
+#classification .container .color_seven {
+  margin-right: 10px;
+  padding: 0 10px;
+  border-right: solid 5px #F58020;
+}
+
+#classification .container .color_eight {
+  margin-right: 10px;
+  padding: 0 10px;
+  border-right: solid 5px #2293D1;
+}
+
+#classification .container .color_nine {
+  margin-right: 10px;
+  padding: 0 10px;
+  border-right: solid 5px #2293D1;
+}
+
+#classification .container .color_ten {
+  margin-right: 10px;
+  padding: 0 4px;
+  border-right: solid 5px #C92D4B;
+}
+
+#partnership {
+  background-color: #38383f;
+  padding: 50px 0;
+}
+
+#partnership .container {
+  display: block;
+}
+
+.contact_methods {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_methods div,
+form {
+  width: 50%;
+  margin: 0 20px 0 20px;
+}
+
+.contact_methods p {
+  color: #d0d0d2;
+  margin: 20px 50px 0 0;
+}
+
+form {
+  border-left: solid 2px #e10600;
+  padding-left: 20px;
+}
+
+form input {
+  border: none;
+  background-color: transparent;
+  border-bottom: solid 2px #d0d0d2;
+  color: #fff;
+}
+
+form input::placeholder {
+  color: #919191;
+}
+
+form label,
+textarea {
+  color: #fff;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 320px;
+  margin-bottom: 20px;
+  padding: 8px;
+  transition: 0.5s;
+}
+
+form input:focus {
+  border-bottom: solid 2px #e10600;
+  outline: 0;
+}
+
+form textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 2px #d0d0d2;
+  outline: 0;
+  resize: none;
+}
+
+form textarea::placeholder {
+  color: #919191;
+}
+
+form textarea:focus {
+  border-bottom: solid 2px #e10600;
+}
+
+form select {
+  background-color: transparent;
+  color: #fff;
+  border: solid 1px #d0d0d2;
+  border-radius: 10px;
+  padding: 1px 2px;
+  cursor: pointer;
+}
+
+form select option {
+  background-color: #e10600;
+}
+
+form select:focus {
+  border: solid 1px #e10600;
+}
+
+button {
+  background-color: #e10600;
+  padding: 8px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  margin-right: 20px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #e10600;
+}
+
+footer {
+  height: 120px;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #38383f;
+  color: #d0d0d2;
+}
+
+footer p {
+  margin: 15px 0;
+}
